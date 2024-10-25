@@ -15,12 +15,13 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "connection-state": "^0.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.9.2",
-    "mongoose": "^8.4.0",
+    "mongoose": "^8.7.3",
     "nodemon": "^3.0.1",
     "razorpay": "^2.9.1"
   }
