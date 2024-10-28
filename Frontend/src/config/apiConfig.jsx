@@ -1,5 +1,4 @@
 import axios from "axios";
-const baseUrl = import.meta.env.VITE_API_BASE_URL;
 export const API_BASE_URL = "http://localhost:5454";
 
 const jwt = localStorage.getItem("jwt");
