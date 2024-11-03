@@ -158,6 +158,17 @@ export default function Navigation() {
 		close();
 	}
 
+	const handleLogin = () => {
+		navigate('/login')
+	}
+
+	const handleRegister = () => {
+		navigate('/register')
+	}
+
+
+
+
 	return (
 		<div className="bg-white">
 			{/* Mobile menu */}
@@ -222,7 +233,7 @@ export default function Navigation() {
 							{/* Logo */}
 							<div onClick={() => navigate("/")} className="ml-4 flex lg:ml-0">
 								<a href="#">
-								
+
 									<img
 										alt=""
 										src="https://t3.ftcdn.net/jpg/02/47/48/00/360_F_247480017_ST4hotATsrcErAja0VzdUsrrVBMIcE4u.jpg"
@@ -242,13 +253,13 @@ export default function Navigation() {
 
 							<div className="ml-auto flex items-center">
 								{auth.user?.firstName ? (<p>{auth.user?.firstName}</p>) : (<div className="lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-									<a href="http://localhost:5173/login" className="text-sm mx:2 font-medium text-gray-700 hover:text-gray-800">
+									<p onClick={() => handleLogin()} className="text-sm mx:2 font-medium text-gray-700 hover:text-gray-800">
 										Login
-									</a>
+									</p>
 									<span aria-hidden="true" className="h-6 w-px bg-gray-200" />
-									<a href="http://localhost:5173/register" className="text-sm mx-2 font-medium text-gray-700 hover:text-gray-800">
+									<p onClick={() => handleRegister()} className="text-sm mx-2 font-medium text-gray-700 hover:text-gray-800">
 										|	Create account
-									</a>
+									</p>
 								</div>)}
 								{/* Search */}
 								<div className="flex lg:ml-6">

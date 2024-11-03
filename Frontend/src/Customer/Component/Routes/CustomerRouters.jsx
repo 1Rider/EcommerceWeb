@@ -17,16 +17,12 @@ import ThankYouPage from '../Checkout/Thankyou.jsx'
 
 const CustomerRouters = () => {
 
-	//const [change, setChange] = useState();
-	//setChange(0);
 	return (
 		<div >
 
 			<div><div className='z-40 ' style={{ position: 'absolute', width: '100%' }}>
 
 				<Navigation></Navigation>
-				{/*{change == 0 && <Navigation></Navigation>}*/}
-
 
 			</div></div>
 			<div className='z-20 homeSection bg-gray-50' style={{ width: '100%' }}>
