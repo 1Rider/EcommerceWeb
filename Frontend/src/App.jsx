@@ -6,6 +6,7 @@ import './App.css'
 import CustomerRouters from './Customer/Component/Routes/CustomerRouters.jsx'
 
 import { Routes, Route } from 'react-router-dom'
+import AdminRouter from "./Customer/Component/Routes/adminRouter.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/*' element={<CustomerRouters></CustomerRouters>}>
           </Route>
+          <Route path='/admin/*' element={<AdminRouter/>}></Route>
         </Routes>
 
       </div >
