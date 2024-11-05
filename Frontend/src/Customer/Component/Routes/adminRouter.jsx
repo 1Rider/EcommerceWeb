@@ -1,5 +1,5 @@
 import React from 'react'
-import Admin from '../../../Admin/component/admin'
+import Admin from '../../../Admin/admin'
 import { Route, Routes } from 'react-router-dom'
 const AdminRouter = () => {
 	return (

@@ -10,11 +10,11 @@ import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantity
 import PersonIcon from '@mui/icons-material/Person';
 import AddIcon from '@mui/icons-material/Add';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import CreProFrom from './CreProFrom';
-import CustomerTable from './customerTable';
-import ProductTable from './productTable';
-import OrderTable from './orderTable';
-import AdminDashboard from './Dashboard';
+import CreProFrom from './component/CreProFrom';
+import CustomerTable from './component/customerTable';
+import ProductTable from './component/productTable';
+import OrderTable from './component/orderTable';
+import AdminDashboard from './component/Dashboard';
 
 
 
