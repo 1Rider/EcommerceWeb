@@ -14,7 +14,7 @@ const salseData = [
 		title: "Customer",
 		color: "primary",
 	}, {
-		stats: "14K",
+		stats: "20K",
 		title: "Products",
 		color: "primary",
 	}, {
