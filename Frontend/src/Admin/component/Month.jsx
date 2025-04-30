@@ -5,7 +5,9 @@ import { Grid } from '@mui/material'
 
 const salseData = [
 	{
-		stats: "24K",
+		stats: "24K",    
+
+		
 		title: "salse",
 		color: "primary",
 	},
